@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>上位机的网页界面</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="socket.io.slim.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="lodash.min.js"></script>
+    <script src="lodash-fp.min.js"></script>
+    <script src="axios.min.js"></script>
+    <script src="rxjs.umd.min.js"></script>
+    <script src="bluebird.min.js"></script>
+    <script src="plotly.min.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align:center">upper monitor web </h1>
+    <p style="background-color:rgb(200.0.0)">The temputure is :<span id="temperature"></span></p>
+    <p style="background-color:rgb(200.0.0)">The value of the flame is:<span id="flame"></span></p>
+    <p style="background-color:rgb(200.0.0)">The gas concentration is:<span id="gas"></span></p>
+
+    <div id="plot">
+</body>
+
+<script>
+  const endpoint = 'http://localhost:8081/';
+  const types = [ 'temperature', 'flame', 'gas' ];
+
+  const socket = io(endpoint);
+
+  const frames = rxjs.concat(
+    rxjs.from(axios(endpoint + 'frames')).pipe(rxjs.operators.map(_.get('data'))),
+    rxjs.Observable.create(observer => {
+      socket.on('insert frame', frame => observer.next(frame));
+    })
+  ).pipe(
+    rxjs.operators.scan((frames, frame) => ([ ...frames, frame ]), []),
+    rxjs.operators.map(_.flatten),
+    rxjs.operators.map(_.sortBy('createdBy')),
+    rxjs.operators.map(_.takeRight(50)),
+  );
+
+  const drawPlot = frames => {
+    var time = _(frames).map(_.get('createdBy')).map(o => moment(o).format('mm:ss')).value()
+
+    var data = _(types).map(type => ({
+      x: time,
+      y: _(frames).map(_.get(type)).map(parseInt).value(),
+      type: 'scatter',
+      name: type
+    })).value();
+
+    Plotly.newPlot('plot', data);
+  };
+
+  const refreshLatestValue = frames => {
+    var latestFrame = _(frames).sortBy('createdBy').last();
+
+    _(types).each(type => {
+      document.querySelector('#' + type).innerHTML = latestFrame[type];
+    }).value();
+  };
+
+  frames.subscribe(drawPlot);
+  frames.subscribe(refreshLatestValue);
+</script>
+
+</html>

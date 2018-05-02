@@ -1,0 +1,368 @@
+{
+  "frames": [
+    {
+      "temperature": "2",
+      "flame": "3",
+      "gas": "4",
+      "createdBy": 1525288900228,
+      "id": "ab330c3c-124b-4773-a462-34d17fd30021"
+    },
+    {
+      "temperature": "3",
+      "flame": "4",
+      "gas": "5",
+      "createdBy": 1525288901234,
+      "id": "fc4101a9-8f33-4e21-9e5c-8bd6367db439"
+    },
+    {
+      "temperature": "4",
+      "flame": "5",
+      "gas": "6",
+      "createdBy": 1525288902241,
+      "id": "d5d731df-6328-48f6-af70-6a4b5917a2be"
+    },
+    {
+      "temperature": "5",
+      "flame": "6",
+      "gas": "7",
+      "createdBy": 1525288903247,
+      "id": "3aca7552-4cd3-4eb3-bfa8-bdccc855b3b9"
+    },
+    {
+      "temperature": "6",
+      "flame": "7",
+      "gas": "8",
+      "createdBy": 1525288904255,
+      "id": "a1600918-9dd1-46fd-9ece-5f34fc6045de"
+    },
+    {
+      "temperature": "7",
+      "flame": "8",
+      "gas": "9",
+      "createdBy": 1525288905264,
+      "id": "f8a37648-8a2e-4907-a56f-732203ec1df3"
+    },
+    {
+      "temperature": "8",
+      "flame": "9",
+      "gas": "10",
+      "createdBy": 1525288906275,
+      "id": "76701ace-f5ec-4a63-9968-5d77088a3954"
+    },
+    {
+      "temperature": "9",
+      "flame": "10",
+      "gas": "11",
+      "createdBy": 1525288907285,
+      "id": "acd57fc5-aee3-4e34-a202-c7c60c69239d"
+    },
+    {
+      "temperature": "10",
+      "flame": "11",
+      "gas": "12",
+      "createdBy": 1525288908291,
+      "id": "fbd6823f-4bd4-4608-83fe-2cbfc51ddc84"
+    },
+    {
+      "temperature": "11",
+      "flame": "12",
+      "gas": "13",
+      "createdBy": 1525288909298,
+      "id": "4b88af52-e6e0-485f-8a42-cdd2ada28bba"
+    },
+    {
+      "temperature": "12",
+      "flame": "13",
+      "gas": "14",
+      "createdBy": 1525288910307,
+      "id": "535d5f67-7906-43d4-ac72-ed5d6f629fbd"
+    },
+    {
+      "temperature": "13",
+      "flame": "14",
+      "gas": "15",
+      "createdBy": 1525288911312,
+      "id": "04494138-66bd-4521-87fa-57d1b4a7ce36"
+    },
+    {
+      "temperature": "14",
+      "flame": "15",
+      "gas": "16",
+      "createdBy": 1525288912320,
+      "id": "160304e2-4150-4878-b1d4-02f849098904"
+    },
+    {
+      "temperature": "15",
+      "flame": "16",
+      "gas": "17",
+      "createdBy": 1525288913325,
+      "id": "76d4fcd9-5839-4eef-b17f-fa1816fd76ee"
+    },
+    {
+      "temperature": "16",
+      "flame": "17",
+      "gas": "18",
+      "createdBy": 1525288914334,
+      "id": "61bf2fcb-d6f4-40ba-b2d1-41d26f6d8148"
+    },
+    {
+      "temperature": "17",
+      "flame": "18",
+      "gas": "19",
+      "createdBy": 1525288915340,
+      "id": "36a41781-6f93-4981-aa85-66f8b70122ac"
+    },
+    {
+      "temperature": "18",
+      "flame": "19",
+      "gas": "20",
+      "createdBy": 1525288916348,
+      "id": "1eae703d-b77d-4b47-aaca-666c9483a74d"
+    },
+    {
+      "temperature": "19",
+      "flame": "20",
+      "gas": "21",
+      "createdBy": 1525288917353,
+      "id": "490db48c-4396-425d-8120-40035e43554e"
+    },
+    {
+      "temperature": "20",
+      "flame": "21",
+      "gas": "22",
+      "createdBy": 1525288918358,
+      "id": "0ab7094c-620a-4807-a2e2-140133794b3e"
+    },
+    {
+      "temperature": "21",
+      "flame": "22",
+      "gas": "23",
+      "createdBy": 1525288919368,
+      "id": "5d483b7f-1b51-47fb-ae93-163322dba7d8"
+    },
+    {
+      "temperature": "22",
+      "flame": "23",
+      "gas": "24",
+      "createdBy": 1525288920374,
+      "id": "8c4ff5f0-699b-481c-b68a-5636d215540e"
+    },
+    {
+      "temperature": "23",
+      "flame": "24",
+      "gas": "25",
+      "createdBy": 1525288921383,
+      "id": "30470fc8-1064-4af1-9f16-823ce943a5e2"
+    },
+    {
+      "temperature": "24",
+      "flame": "25",
+      "gas": "26",
+      "createdBy": 1525288922389,
+      "id": "f1466633-b888-4b8d-89d1-805c53fe9b00"
+    },
+    {
+      "temperature": "25",
+      "flame": "26",
+      "gas": "27",
+      "createdBy": 1525288923394,
+      "id": "39cc11ad-976d-42d8-98ed-0309dbdb912b"
+    },
+    {
+      "temperature": "26",
+      "flame": "27",
+      "gas": "28",
+      "createdBy": 1525288924401,
+      "id": "1f45f82a-5042-4530-b719-82eff59cb8d5"
+    },
+    {
+      "temperature": "27",
+      "flame": "28",
+      "gas": "29",
+      "createdBy": 1525288925408,
+      "id": "cd9efda8-20e8-434c-8724-241c5b66f63b"
+    },
+    {
+      "temperature": "28",
+      "flame": "29",
+      "gas": "30",
+      "createdBy": 1525288926416,
+      "id": "0907ec31-7cb0-40c0-953d-9e8226b55ad7"
+    },
+    {
+      "temperature": "29",
+      "flame": "30",
+      "gas": "31",
+      "createdBy": 1525288927420,
+      "id": "6df0df73-b50c-4629-ba1f-875854830234"
+    },
+    {
+      "temperature": "30",
+      "flame": "31",
+      "gas": "32",
+      "createdBy": 1525288928427,
+      "id": "cf1006af-1c39-4c8e-8850-8397c3f415e6"
+    },
+    {
+      "temperature": "31",
+      "flame": "32",
+      "gas": "33",
+      "createdBy": 1525288929432,
+      "id": "5ea4f42d-5bc8-41ae-8623-74698c0216d0"
+    },
+    {
+      "temperature": "32",
+      "flame": "33",
+      "gas": "34",
+      "createdBy": 1525288930440,
+      "id": "ddbd6b47-a0ce-46d5-be56-9b6bedb17302"
+    },
+    {
+      "temperature": "33",
+      "flame": "34",
+      "gas": "35",
+      "createdBy": 1525288931448,
+      "id": "ec725355-9683-479f-8b81-0d11a5a73698"
+    },
+    {
+      "temperature": "34",
+      "flame": "35",
+      "gas": "36",
+      "createdBy": 1525288932467,
+      "id": "38b68de7-f99a-4029-9215-5ee773a511ac"
+    },
+    {
+      "temperature": "35",
+      "flame": "36",
+      "gas": "37",
+      "createdBy": 1525288933475,
+      "id": "096519fd-8eaa-4d23-9522-ae387a1622f2"
+    },
+    {
+      "temperature": "36",
+      "flame": "37",
+      "gas": "38",
+      "createdBy": 1525288934483,
+      "id": "44ecb67f-16aa-488d-ba9b-801544518700"
+    },
+    {
+      "temperature": "37",
+      "flame": "38",
+      "gas": "39",
+      "createdBy": 1525288935489,
+      "id": "94a6b4d0-d39a-4c04-b1b1-f0c0d23f5018"
+    },
+    {
+      "temperature": "38",
+      "flame": "39",
+      "gas": "40",
+      "createdBy": 1525288936498,
+      "id": "03f1a9be-bb0d-4247-a919-12e24ebe1f30"
+    },
+    {
+      "temperature": "39",
+      "flame": "40",
+      "gas": "41",
+      "createdBy": 1525288937506,
+      "id": "9aacf914-fceb-44ed-a336-5c31a9670df4"
+    },
+    {
+      "temperature": "40",
+      "flame": "41",
+      "gas": "42",
+      "createdBy": 1525288938511,
+      "id": "3424d4be-ab16-4c96-8851-2db82df7eed5"
+    },
+    {
+      "temperature": "41",
+      "flame": "42",
+      "gas": "43",
+      "createdBy": 1525288939515,
+      "id": "e6cf70e0-8f57-4bdb-b6e2-a186ddd84808"
+    },
+    {
+      "temperature": "42",
+      "flame": "43",
+      "gas": "44",
+      "createdBy": 1525288940524,
+      "id": "1184e620-6d4a-441d-8e38-e988240ffbd5"
+    },
+    {
+      "temperature": "43",
+      "flame": "44",
+      "gas": "45",
+      "createdBy": 1525288941532,
+      "id": "32d25707-ba85-40fd-8f5a-143fa8f7eba3"
+    },
+    {
+      "temperature": "44",
+      "flame": "45",
+      "gas": "46",
+      "createdBy": 1525288942537,
+      "id": "48547115-ecfc-4528-9bca-3881efe1d6e7"
+    },
+    {
+      "temperature": "45",
+      "flame": "46",
+      "gas": "47",
+      "createdBy": 1525288943543,
+      "id": "790d56a6-d875-4aa3-8af1-2c93e96b6091"
+    },
+    {
+      "temperature": "46",
+      "flame": "47",
+      "gas": "48",
+      "createdBy": 1525288944551,
+      "id": "19419850-44e2-4be6-b3cf-2cd333043588"
+    },
+    {
+      "temperature": "47",
+      "flame": "48",
+      "gas": "49",
+      "createdBy": 1525288945557,
+      "id": "03dfe6d7-d464-4f60-ae62-ee340ddeaefc"
+    },
+    {
+      "temperature": "48",
+      "flame": "49",
+      "gas": "50",
+      "createdBy": 1525288946567,
+      "id": "b948d197-6deb-49da-a498-9d4a5867d1b0"
+    },
+    {
+      "temperature": "49",
+      "flame": "50",
+      "gas": "51",
+      "createdBy": 1525288947575,
+      "id": "674da30e-cf1e-4e2f-a78e-4737557d6d75"
+    },
+    {
+      "temperature": "50",
+      "flame": "51",
+      "gas": "52",
+      "createdBy": 1525288948581,
+      "id": "ce0dbf7a-632d-4e14-81bb-e43fcb0139b0"
+    },
+    {
+      "temperature": "51",
+      "flame": "52",
+      "gas": "53",
+      "createdBy": 1525288949590,
+      "id": "9c7b35b7-46bf-4718-b085-0a6e79541564"
+    },
+    {
+      "temperature": "52",
+      "flame": "53",
+      "gas": "54",
+      "createdBy": 1525288950596,
+      "id": "227d37d8-61fc-4c14-84eb-84a3e9290aa6"
+    },
+    {
+      "temperature": "53",
+      "flame": "54",
+      "gas": "55",
+      "createdBy": 1525288951603,
+      "id": "ff99623e-a89b-45c1-95d0-7e2846bf2e85"
+    }
+  ]
+}
